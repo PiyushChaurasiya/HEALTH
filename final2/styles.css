@@ -1,0 +1,98 @@
+body {
+    width: fit-content;
+    min-width: 100vw;
+    min-height: 100vh;
+    height: fit-content;
+    background-image: url('https://tint.creativemarket.com/Dz7rCaOIs8hYy5LsOpupAJbzGdtg2WPDDs6eNcDbnDo/width:1820/height:1214/gravity:nowe/rt:fill-down/el:1/czM6Ly9maWxlcy5jcmVhdGl2ZW1hcmtldC5jb20vaW1hZ2VzL3NjcmVlbnNob3RzL3Byb2R1Y3RzLzcyNC83MjQ4LzcyNDg5NTgvZG9jdG9yLWluLXN1aXQtY3JvcHAtY20tby5qcGc');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+.header-container {
+    /* position: sticky; */
+    /* top: 0;
+    height: 15%; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #fff;
+}
+
+.logo {
+    width: 200px;
+    mix-blend-mode: multiply;
+}
+
+.nav {
+    margin-left: 400px;
+    /* margin-top: -100px; */
+}
+
+.nav-item {
+    /* margin: 10px 20px; */
+    font-size: larger;
+
+}
+
+.nav-link:hover {
+    background-color: white;
+}
+
+.nav-link {
+    color: black;
+    border-radius: 30px;
+    box-shadow: 0 0 0 2px white;
+    cursor: pointer;
+}
+
+
+
+.text {
+    text-align: center;
+    padding: 0 270px;
+    margin-left: 320px;
+    margin-top: 120px;
+}
+
+.text p {
+    font-size: 20px;
+    font-weight: 200;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.btn {
+    margin-top: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    background-color: rgb(248, 200, 110);
+    color: rgb(28, 94, 216);
+    padding: 12px;
+    box-shadow: 0 0 0 2px white;
+    border: rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 70px;
+}
+
+.btn:hover {
+    color: black;
+    background-color: white;
+}
+
+/* COPYRIGHT */
+
+footer {
+    color: #fff;
+    background: #020c1b;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    bottom: 0;
+    align-items: center;
+    padding:10px 0;
+    font-size: -180px;
+}
